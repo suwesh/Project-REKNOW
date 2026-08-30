@@ -2,4 +2,4 @@
 Project REKNOW 
 ## Generalized Reference Architecture
 
-## Autonomous GUI-Based QA Implementation Architecture
+## Implementation Architecture: Autonomous GUI-Based QA
