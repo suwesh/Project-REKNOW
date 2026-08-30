@@ -1,3 +1,5 @@
-# Project REKNOW
+# Reverse Engineering a Knowledge Worker
+Project REKNOW 
+## Generalized Reference Architecture
 
-Reverse Engineering a Knowledge Worker
+## Autonomous GUI-Based QA Implementation Architecture
