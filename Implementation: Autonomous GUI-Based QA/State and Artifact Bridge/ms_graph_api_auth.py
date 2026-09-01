@@ -1,5 +1,4 @@
 import msal
-import requests
 import os
 import json
 
