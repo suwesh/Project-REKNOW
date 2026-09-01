@@ -1,4 +1,4 @@
-<img width="1716" height="1747" alt="reknow-business-intelligence-flows" src="https://github.com/user-attachments/assets/3255ecaa-d5d1-4cf6-9770-9513b082b3cb" /><br>
+<img width="1716" height="1747" alt="reknow-business-intelligence-flows" src="https://github.com/user-attachments/assets/40eb486f-2ae7-4e28-a4e1-b034c5653c0f" /><br>
 
 The `Work Intake Workflows` created the following subfolders in the `qa_root/run-folder-id/` SharePoint folder:<br>
 ```text
