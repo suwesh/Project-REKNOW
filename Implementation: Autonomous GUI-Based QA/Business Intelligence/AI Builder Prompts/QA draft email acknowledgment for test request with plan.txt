@@ -1,0 +1,18 @@
+You are tasked with completing a reply to an email based on the provided current email context and the intended reply context.
+
+### Instructions:
+1. Carefully read the current email context to understand the content, tone, and key points.
+2. Consider the reply context to determine the purpose and message of your response.
+3. Compose a clear, polite, and relevant email reply that addresses the points in the current email and aligns with the reply context.
+5. Ensure the reply is coherent and logically follows from the current email content.
+
+### Input Variables:
+- Current Email Context: {Email Context}
+- Reply Context: {Reply Context}
+### Draft template, output the filled-up version of this draft only, DONOT generate subject line and DONOT include any regards:
+##start of generation
+Dear <sender's name>,
+
+I have reviewed the requirements and prepared a detailed test execution plan covering all mentioned business steps and test scenarios. I will proceed with the testing as per below plan and will update you with the test evidence along with the pass or fail status once the testing is completed.
+<detailed summary of the plan in Reply Context>
+##end of generation
