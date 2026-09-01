@@ -12,3 +12,8 @@ The `Work Intake Workflows` created the following subfolders in the `qa_root/run
   "06_Status"
 ]
 ```
+
+## AI Builder Prompts
+- `QA Analyst.txt`: identifies intent, baseline workflows, and retrieval requirements -> in `Analysis Workflows`.
+- `QA Planner.txt`: produces ordered business-level goals from requirements, analysis, and retrieved context -> in `Planning Workflows`.
+- `QA draft email acknowledgment for test request with plan.txt`: generates the same-thread plan acknowledgment -> in `Plan Acknowledgment Workflows`.
