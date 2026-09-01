@@ -1,0 +1,25 @@
+{
+  "business_steps": [
+    {
+      "step_id": 1,
+      "goal": ""
+    },
+    {
+      "step_id": 2,
+      "goal": ""
+    },
+    {
+      "step_id": 3,
+      "goal": ""
+    },
+    {
+      "step_id": 4,
+      "goal": ""
+    },
+    {
+      "step_id": 5,
+      "goal": ""
+    },
+    ...
+  ]
+}
