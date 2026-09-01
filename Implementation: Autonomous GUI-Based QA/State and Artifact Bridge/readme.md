@@ -7,9 +7,14 @@ Representative implementation artifacts for the server-side coordination layer o
 • `ms_graph_api_handlers.py`: state-specific handlers<br>
 • `ms_graph_api_poller.py`: run-state polling and duplicate-processing prevention<br>
 • `msgraph_apikeys.json`: empty credential template<br>
+• `poller_service.py`: service entry point and graceful shutdown handling<br>
+• `qa_root_processedruns.json`: sanitized example of processed-state tracking, you may keep this in `/opt/` directory<br>
+• `qaroot-poller.service`: representative systemd service configuration<br>
 
 ## External Dependency
-The `search_domain_knowledge()` function inside `ms_graph_api_handlers.py` represents the existing external domain-knowledge retrieval system used by the proof of concept. Its underlying enterprise knowledge base and retrieval implementation are not included in this repository.
+• The `search_domain_knowledge()` function inside `ms_graph_api_handlers.py` represents the existing external domain-knowledge retrieval system used by the proof of concept. Its underlying enterprise knowledge base and retrieval implementation are not included in this repository.<br>
+• `your_app.RAG_RESOURCES` represents the retrieval indexes, metadata, and other resources loaded by the host application.<br>
+These external enterprise components are not included in this repository.
 
 ## Implemented States
 • `RECEIVED`<br>
