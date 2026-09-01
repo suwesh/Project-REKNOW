@@ -58,23 +58,3 @@ def poll_run_states(rag_resources):
                 tracker[run_folder].append(curr_state)
                 save_tracker(tracker)
         time.sleep(3)
-
-# functions that execute after power automate runs state changes
-def process_automation_run_state_change(run_folder, state_data, rag_resources):
-    state = state_data.get("state")
-    if not state:
-        print(f"[{run_folder}] Missing state")
-        return  # soft exit
-    # finite state machine mapping
-    handlers = {
-        "RECEIVED": handle_received_state,
-        "ANALYZED": handle_analyzed_state,
-        "PLANNED": handle_planned_state,
-        "EXECUTED": None
-    }
-    handler = handlers.get(state)
-    if not handler:
-        print(f"[{run_folder}] Unknown state: {state}")
-        return  # soft exit
-    handler(run_folder, state_data, rag_resources)# handler will be one of the below handle_<state> function and that function will be executed by this line
-
