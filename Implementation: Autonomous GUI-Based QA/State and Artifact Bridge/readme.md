@@ -8,7 +8,7 @@ Representative implementation artifacts for the server-side coordination layer o
 • `ms_graph_api_poller.py`: run-state polling and duplicate-processing prevention<br>
 • `msgraph_apikeys.json`: empty credential template<br>
 • `poller_service.py`: service entry point and graceful shutdown handling<br>
-• `qa_root_processedruns.json`: sanitized example of processed-state tracking, you may keep this in `/opt/` directory<br>
+• `qa_root_processedruns.json`: sanitized example of processed-state tracking. The deployed version was stored under `/opt/`.<br>
 • `qaroot-poller.service`: representative systemd service configuration<br>
 
 ## External Dependency
