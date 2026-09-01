@@ -20,7 +20,7 @@ Project-REKNOW/
     ├── Business Intelligence/
     │   ├── AI Builder Prompts/
     │   └── Power Automate Flows/
-    ├── State Artifact Bridge/
+    ├── State and Artifact Bridge/
     ├── Execution Intelligence/
     │   ├── windows-runtime/
     │   └── wsl-perception-service/
