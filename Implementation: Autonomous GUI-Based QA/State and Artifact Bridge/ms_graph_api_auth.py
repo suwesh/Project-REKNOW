@@ -1,5 +1,7 @@
 import msal
 import requests
+import os
+import json
 
 YOUR_EMAIL_ID = "example@domain.com"
 #functions for authentication with ms graph api
