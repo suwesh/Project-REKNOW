@@ -12,9 +12,9 @@ Representative implementation artifacts for the server-side coordination layer o
 The `search_domain_knowledge()` function inside `ms_graph_api_handlers.py` represents the existing external domain-knowledge retrieval system used by the proof of concept. Its underlying enterprise knowledge base and retrieval implementation are not included in this repository.
 
 ## Implemented States
-• RECEIVED<br>
-• ANALYZED<br>
-• PLANNED<br>
+• `RECEIVED`<br>
+• `ANALYZED`<br>
+• `PLANNED`<br>
 The transition from the planning stage to desktop execution remained a manual handoff in the demonstrated prototype.
 
 ## Note
