@@ -1,4 +1,6 @@
-
+import json
+from your_domain_knowledge_retreival import search_domain_knowledge # replace with your actual domain knowledge retrieval function
+from ms_graph_api_utils import list_runfolder_files, download_file_content, extract_pdf_text, extract_docx_text, upload_concated_inputtext_file, upload_plannerinput_file
 # functions that execute after power automate runs state changes
 def process_automation_run_state_change(run_folder, state_data, rag_resources):
     state = state_data.get("state")
@@ -63,7 +65,7 @@ def handle_analyzed_state(run_folder, state_data, rag_resources):
         else: continue
     rag_results = []
     for query in retrieval_queries:# search vector knowledge base
-        faqs_ctx, video_ctx, manuals_ctx, _ = search_domain_knowledge(sentences=query, rag_resources=rag_resources)
+        faqs_ctx, video_ctx, manuals_ctx, _ = search_domain_knowledge(sentences=query, rag_resources=rag_resources) # ypur actual retreival function
         rag_results.append({
             "queries": query,
             "contexts": {
