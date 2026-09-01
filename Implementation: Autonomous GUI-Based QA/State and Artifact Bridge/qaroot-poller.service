@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=simple
-User=cbotadmin
-Group=cbotadmin
+User=suwesh
+Group=suwesh
 WorkingDirectory=/home/suwesh/app/autonomous_gui_qa
 ExecStart=/home/suwesh/env312/bin/python poller_service.py
 Restart=always
