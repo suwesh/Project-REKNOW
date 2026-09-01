@@ -1,9 +1,5 @@
-import requests
 import json
-import msal
-import pdfplumber
-from docx import Document
-import io, time, os
+import time
 from ms_graph_api_auth import get_access_token, YOUR_EMAIL_ID
 from ms_graph_api_utils import list_runfolder_files, fetch_changed_file
 from ms_graph_api_handlers import process_automation_run_state_change
