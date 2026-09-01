@@ -1,5 +1,5 @@
 import json
-from your_domain_knowledge_retreival import search_domain_knowledge # replace with your actual domain knowledge retrieval function
+from your_domain_knowledge_retrieval import search_domain_knowledge # replace with your actual domain knowledge retrieval function
 from ms_graph_api_utils import list_runfolder_files, download_file_content, extract_pdf_text, extract_docx_text, upload_concated_inputtext_file, upload_plannerinput_file
 # functions that execute after power automate runs state changes
 def process_automation_run_state_change(run_folder, state_data, rag_resources):
