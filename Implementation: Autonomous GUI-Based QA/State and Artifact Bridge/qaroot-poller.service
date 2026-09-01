@@ -1,0 +1,16 @@
+[Unit]
+Description=QA Root Folder Poller
+After=network.target
+
+[Service]
+Type=simple
+User=cbotadmin
+Group=cbotadmin
+WorkingDirectory=/home/suwesh/app/autonomous_gui_qa
+ExecStart=/home/suwesh/env312/bin/python poller_service.py
+Restart=always
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
