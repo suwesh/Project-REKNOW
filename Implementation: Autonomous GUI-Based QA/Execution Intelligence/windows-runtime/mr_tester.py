@@ -66,7 +66,7 @@ def execute_steps(steps):
             critic_json = to_operator(
                 prev_screen_path,
                 after_screen_path,
-                personas["step_judge"],
+                personas["critic"],
                 critic_message
             )
             print(f"🧑‍⚖️ critic output: {critic_json}")
