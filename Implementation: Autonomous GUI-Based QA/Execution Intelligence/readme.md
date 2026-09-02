@@ -1,7 +1,6 @@
 # Execution Intelligence
 
-Representative implementation artifacts for the Project REKNOW
-Autonomous GUI-Based QA execution subsystem.
+Representative implementation artifacts for the Autonomous GUI-Based QA execution subsystem.
 
 ## Structure
 
