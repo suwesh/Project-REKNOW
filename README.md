@@ -1,4 +1,4 @@
-[![Blog](https://shields.io)]([https://yourblogurl.com](https://suwesh.github.io/engineering-war-stories/005))
+[![Blog](https://shields.io)](https://suwesh.github.io/engineering-war-stories/005)
 
 # Reverse Engineering a Knowledge Worker
 Project REKNOW: A distributed, stateful, and artifact-centric reference architecture for bounded autonomous knowledge work.
