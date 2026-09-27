@@ -1,4 +1,4 @@
-[![Blog Post](⚔️)](https://suwesh.github.io/engineering-war-stories/005)
+[⚔️Blog Post](https://www.kaggle.com/writeups/suwesh/reverse-engineering-a-knowledge-worker)
 
 # Reverse Engineering a Knowledge Worker
 Project REKNOW: A distributed, stateful, and artifact-centric reference architecture for bounded autonomous knowledge work.
