@@ -1,6 +1,4 @@
-```html
-[⚔️Blog Post](https://suwesh.github.io/engineering-war-stories/005) | [📝Technical Writeup](https://doi.org/10.5281/zenodo.22240157)
-```
+<div align="center"> <a href="https://suwesh.github.io/engineering-war-stories/005">⚔️Blog Post</a> | <a href="https://doi.org/10.5281/zenodo.22240157">📝Technical Writeup</a> </div>
 
 # Reverse Engineering a Knowledge Worker
 Project REKNOW: A distributed, stateful, and artifact-centric reference architecture for bounded autonomous knowledge work.
