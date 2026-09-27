@@ -1,4 +1,4 @@
-[⚔️Blog Post](https://suwesh.github.io/engineering-war-stories/005) | [![Technical Writeup](https://zenodo.org/badge/DOI/10.5281/zenodo.22240157.svg)](https://doi.org/10.5281/zenodo.22240157)
+[⚔️Blog Post](https://suwesh.github.io/engineering-war-stories/005) | [📝Technical Writeup](https://doi.org/10.5281/zenodo.22240157)
 
 # Reverse Engineering a Knowledge Worker
 Project REKNOW: A distributed, stateful, and artifact-centric reference architecture for bounded autonomous knowledge work.
