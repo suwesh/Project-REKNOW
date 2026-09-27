@@ -1,7 +1,7 @@
 <div align="center"> <a href="https://suwesh.github.io/engineering-war-stories/005">⚔️Blog Post</a> | <a href="https://doi.org/10.5281/zenodo.22240157">📝Technical Writeup</a> </div>
 
 # Reverse Engineering a Knowledge Worker
-Project REKNOW: A distributed, stateful, and artifact-centric reference architecture for bounded autonomous knowledge work.
+Project REKNOW: A distributed, stateful, and artifact-centric reference architecture for bounded autonomous knowledge work. An autonomous GUI-based QA workflow serves as the reference implementation.
 
 ## Generalized Reference Architecture
 <img width="6968" height="3604" alt="reference_reknow_arch" src="https://github.com/user-attachments/assets/fb90fe06-1c7e-4b24-89a4-d70ff5ea7de2" />
